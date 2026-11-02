@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", ATTRS{name}=="Android Wireless Wheel", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="Android Wireless Wheel", MODE="0666"
