@@ -13,6 +13,10 @@ regular controller. No Bluetooth, no kernel modules, no extra drivers.
 git clone <repo> && cd androidjoystick-daemon
 ./install.sh
 ```
+## Companion Android app
+
+The Android client that implements the protocol below (touch wheel + pedals + gear buttons) lives here:  
+**https://github.com/tynkovski/MyJoystick**
 
 ## Why
 
