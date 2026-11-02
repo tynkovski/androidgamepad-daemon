@@ -1,5 +1,9 @@
 # androidjoystick-daemon
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Platform: Linux](https://img.shields.io/badge/platform-Linux-informational)
+![Python 3](https://img.shields.io/badge/python-3-blue)
+
 Android phone → wireless steering wheel, pedals, and gear/handbrake buttons
 for **BeamNG.drive** (Linux native) over local Wi-Fi.
 
@@ -90,4 +94,13 @@ CLI flags: `--bind`, `--port`, `--evt-port`, `--invert-steering`, `--verbose`.
 
 ## License
 
-MIT.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Released under the **MIT License** — free to use, modify, and distribute,
+including commercially, provided the copyright notice is preserved.
+
+| | |
+|---|---|
+| **License** | MIT |
+| **Copyright** | © 2026 tynkovski |
+| **Full text** | [LICENSE](LICENSE) |
