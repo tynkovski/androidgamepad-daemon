@@ -1,4 +1,4 @@
-# androidjoystick-daemon
+# androidgamepad-daemon
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Platform: Linux](https://img.shields.io/badge/platform-Linux-informational)
@@ -14,7 +14,7 @@ regular controller. No Bluetooth, no kernel modules, no extra drivers.
 ## Install
 
 ```bash
-git clone <repo> && cd androidjoystick-daemon
+git clone <repo> && cd androidgamepad-daemon
 ./install.sh
 ```
 ## Run
@@ -31,7 +31,7 @@ CLI flags: `--bind`, `--port`, `--evt-port`, `--verbose`.
 ## Companion Android app
 
 The Android client that implements the protocol below (touch wheel + pedals + gear buttons) lives here:  
-**https://github.com/tynkovski/MyJoystick**
+**https://github.com/tynkovski/AndroidGamepad**
 
 ## Features
 
