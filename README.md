@@ -17,17 +17,21 @@ regular controller. No Bluetooth, no kernel modules, no extra drivers.
 git clone <repo> && cd androidjoystick-daemon
 ./install.sh
 ```
+## Run
+
+Requires `python3-evdev`, `uinput` access (user in `input` group), and ports
+5555/5556 open in the firewall.
+
+```bash
+python3 wireless_wheel_daemon.py --verbose
+```
+
+CLI flags: `--bind`, `--port`, `--evt-port`, `--verbose`.
+
 ## Companion Android app
 
 The Android client that implements the protocol below (touch wheel + pedals + gear buttons) lives here:  
 **https://github.com/tynkovski/MyJoystick**
-
-## Why
-
-Wanted to play BeamNG with my phone as a physical wheel. Gyroscope turned out
-unusable (noisy, drifting), so I switched to touch: a half-sunk wheel you drag
-with your thumb, plus two diagonal pedals. This repo is the PC-side daemon.
-The Android app is a separate project — it just implements the protocol below.
 
 ## Features
 
@@ -73,24 +77,7 @@ UDP, little-endian.
 
 ## BeamNG setup
 
-Add to Steam launch options:
-
-```
-SDL_JOYSTICK_DEVICE=/dev/input/js0 %command%
-```
-
-Then bind in `Options → Controls`.
-
-## Run
-
-Requires `python3-evdev`, `uinput` access (user in `input` group), and ports
-5555/5556 open in the firewall.
-
-```bash
-python3 wireless_wheel_daemon.py --verbose
-```
-
-CLI flags: `--bind`, `--port`, `--evt-port`, `--invert-steering`, `--verbose`.
+Rebind in `Options → Controls`.
 
 ## License
 
